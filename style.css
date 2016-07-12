@@ -1,0 +1,63 @@
+body{
+	margin: 0px;
+
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	background-color: grey;
+}
+ul li{
+	display: inline-block;
+	padding: 10px 0px;
+	list-style-type: none;
+	color: yellow;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Times;
+	
+	margin: 0 -2px;
+}
+ul:first-child{
+	padding: 0 300px;
+	margin: 0px;
+}
+ul li a{
+	color: yellow;
+	
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 18px 15px;
+	line-height: 38px;
+}
+ul li a:hover{
+	color: white;
+	background: red;
+	transition: all 0.5s ease;
+
+}
+.main{
+	width: 1000px;
+	height: 3000px;
+	margin: 50px auto;
+}
+.main div:first-child{
+	width: 1px;
+	height: 1px;
+	background-color: white;
+	float: left;
+	border-right: white solid 100px;
+	border-left: white solid 100px;
+	border-bottom: red solid 200px;
+	border-top: white solid 100px;
+}
+.main div:last-child{
+	width: 1px;
+	height: 1px;
+	background-color: white;
+	float: right;
+	border-right: yellow solid 100px;
+	border-left: red solid 100px;
+	border-bottom: green solid 100px;
+	border-top: blue solid 100px;
+}
